@@ -1,0 +1,64 @@
+div {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+span {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Caixa</title>
+    <style>
+        .block-box {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+
+        .inline-box {
+            display: inline;
+            padding: 5px;
+            border: 1px solid red;
+        }
+
+        .inline-block-box {
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            padding: 10px;
+            border: 2px solid blue;
+            margin: 5px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        .flex-item {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .grid-item {
+            padding: 20px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-box">Caixa de Bloco</div>
+    <span class="inline-box">Caixa Inline</span>
+    <span class="inline-box">Caixa Inline</span>
+    <div class="inline-block-box">Caixa Inline-Block</div>
+    <div class="inline-block-box">Caixa Inline-Block</div>
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">Grid Item 1</div>
+        <div class="grid-item">Grid Item 2</div>
+        <div class="grid-item">Grid Item 3</div>
+    </div>
+</body>
+</html>
